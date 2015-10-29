@@ -30,144 +30,89 @@ header img+div li a{
 }
 
 .banner{
-	background:rgb(248,248,248) url(../images/xbj1.png);
-	max-width: 100%;
-	height: 741px;
+	background:#282828 url(../images/xbj19.png);
+	width: 100%;
+	height: 705px;
 	display: block;
 	background-repeat:no-repeat;
 	background-position:center;
 }
 
-.kong{
-	border: 1px solid rgb(28,28,28);
-	margin-bottom: 185px;
-}
-
-.on{
-	background-image: url(../images/xbj2.png);
-	padding:45px;
-	border-bottom: 1px solid #bfbfbf;
-}
-
-.banner h1{
+.banner div+div{
 	color: white;
-	font-weight: bold;
-	font-size: 60px;
-	margin-top: 0;
-	padding: 10px;
+	margin: 45px;
 }
 
-li h1+p{
-	font-family: "微软雅黑";
-    font-size: 22px;
-    color: #bfbfbf;
+.h h4{
+	color: #999;
 }
 
-.banner div+ul li{
-	color: white;
-	border-bottom: 1px solid #bfbfbf;
-	padding: 10px;
-
-}
-
-#first{
-	background:rgb(40,40,40) url(../images/xbj3.png);
-	max-width: 100%;
-	height:709px;
+.images img{
 	display: block;
-	background-repeat:no-repeat;
-	background-position:center;
+	padding-top: 140px;
 }
 
-.who img{
+.solution img{
 	padding-top: 40px;
 }
 
-.who h4{
+.solution h4{
 	padding-top: 10px;
     margin-bottom: -20px;
     color: #999999;
 }
 
-.yu{
-    background:rgb(248,248,248) url(../images/xbj7.png);
-	max-width: 100%;
-	height:361px;
+#first{
+	background:#F8F8F8 url(../images/page-about-bj.png);
+	width: 100%;
+	height:663px;
 	display: block;
 	background-repeat:no-repeat;
 	background-position:center;
 }
 
-.yu ul {
-    margin-top: 71px;
-    margin-left: 24%;
- }
-
-.yu li {
-    margin: 64px;
-    color: white;
+#first div+div li{
+	margin-top:25px; 
 }
 
-.yu li b{
-	font-weight: bold;
-	font-size: 30px;
+.s{
+    margin: 0 150px;
 }
 
-.idea img{
-	padding-top: 40px;
+.case img{
+	padding-top: 60px;
 }
 
-.idea h4{
+.case h4{
 	padding-top: 10px;
     margin-bottom: -20px;
     color: #999999;
 }
 
 #second{
-	background:rgb(248,248,248) url(../images/page-about-bj.png);
-	max-width: 100%;
-	height:662px;
+	background:rgb(40,40,40) url(../images/xbj3.png);
+	width: 100%;
+	height:710px;
 	display: block;
 	background-repeat:no-repeat;
 	background-position:center;
 }
 
-.left{
-	margin-top:140px; 
-	width: 50%;
-	float: left;
+#second div+div ul{
+	margin-top: 130px;
 }
 
-.right{
-	margin-top:140px;
-	width: 50%;
-	float: right;
-}
-
-#third{
-	background:rgb(40,40,40) url(../images/xbj5.png);
-	max-width: 100%;
-	height:910px;
-	display: block;
-	background-repeat:no-repeat;
-	background-position:center;
-}
-
-.maps img{
+.team img{
 	padding-top: 40px;
 }
 
-.maps h4{
+.team h4{
 	padding-top: 10px;
     margin-bottom: -20px;
-    color: #999999;
+    color: white;
 }
 
-#third div+div img{
-    margin-top: 45px;
-}
-
-#fourth{
+#third{
 	background:url(../images/page-about-bj.png);
 	max-width: 100%;
 	height:663px;
@@ -186,31 +131,27 @@ li h1+p{
     color: #999999;
 }
 
-#fourth div+div{
+#third div+div{
 	color: white;
 }
 
-#fifth{
-	background: #F3F3F3;
-}
-
-#sixth{
+#fourth{
 	background: #F3F3F3;
 	padding: 40px;
 }
 
-#sixth h2+p{
+#fourth h2+p{
 	color: #999999;
 	font-size: 15px;
 	margin: 30px;
 
 }
 
-#sixth h2{
+#fourth h2{
     color: #262626;
 }
 
-.join{
+.more{
 	background:url(../images/btn-ico.png);
 	max-width: 100%;
 	height: 55px;
@@ -219,7 +160,7 @@ li h1+p{
 	background-position:center;
 	padding-top: 16px;
 }
-.join a{
+.more a{
 	color: white;
 	font-size: 15px;
 }

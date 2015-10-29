@@ -1,0 +1,232 @@
+#wrap{
+	background: rgb(40,40,40);
+	font-family: "微软雅黑";
+	text-align: center;
+}
+
+.clear{
+	clear: both;
+}
+
+header>img{
+	position: absolute;
+	left: 20px;
+    top: 0px;
+    z-index: 2
+}
+
+header img+div{
+	float: right;
+}
+
+header img+div li a{
+	color: #a9a9a9;
+	font: 15px "微软雅黑" serif;
+}
+
+.j{
+	margin: 10px 25px;
+	padding: 15px 0;
+}
+
+.banner{
+	background:rgb(40,40,40) url(../images/xbj11.png);
+	width: 100%;
+	height: 855px;
+	display: block;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.images{
+    background-image: url(../images/xbj10.png);
+    display: block;
+    width: 100%;
+    height: 543px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.images img{
+	display: block;
+}
+
+.nr{
+	margin-top: -50px;
+}
+
+.h{
+	color: white;
+    margin-top: -65px;
+    margin-bottom: 40px;
+}
+
+.banner div+div{
+	color: white;
+}
+
+.service img{
+	padding-top: 40px;
+}
+
+.service h4{
+	padding-top: 10px;
+    margin-bottom: -20px;
+    color: #999999;
+}
+
+#first{
+	background:white url(../images/page-about-bj.png);
+	width: 100%;
+	height:663px;
+	display: block;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#first div+div ul li{
+	padding: 50px;
+}
+
+.right{
+	width: 50%;
+	float: right;
+}
+
+.left{
+	width: 40%;
+	float: left;
+	color: white;
+	margin-left: 10%;
+}
+
+.left h4{
+    padding: 10px 0; 
+}
+
+.left p{
+	color: #999999;
+}
+
+.l{
+	float: left;
+	display: block;
+	width: 30%;
+}
+
+.r{
+	float: right;
+	display: block;
+	width: 37%;
+}
+
+#first .left ul li{
+	padding:10px; 
+	color: #999999;
+}
+
+.works img{
+	padding-top: 40px;
+}
+
+.works h4{
+	padding-top: 10px;
+    margin-bottom: -20px;
+    color: #999999;
+}
+
+#second{
+	background:#F3F3F3 url(../images/xbj17.png);
+	width: 100%;
+	height:857px;
+	display: block;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#second div+div ul li{
+	padding-top: 50px;
+    width: 47%;
+}
+
+#second div+div ul li p{
+    text-align: left;
+    color: #999;
+    margin-top: 35px;
+}
+
+#second div+div ul li h3 a{
+	color: #333333;
+	margin-bottom: 10px;
+}
+
+.chakan{
+	background-image: url(../images/xbtn1.png);
+	display: block;
+	height: 85px;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#third{
+	background: #F3F3F3;
+	padding: 40px;
+}
+
+#third h2+p{
+	color: #999999;
+	font-size: 15px;
+	margin: 30px;
+
+}
+
+#third h2{
+    color: #262626;
+}
+
+.more{
+	background:url(../images/btn-ico.png);
+	max-width: 100%;
+	height: 55px;
+	display: block;
+	background-repeat:no-repeat;
+	background-position:center;
+	padding-top: 15px;
+}
+.more a{
+	color: white;
+	font-size: 15px;
+}
+
+footer{
+	background: #F3F3F3 url(../images/work-foot-bj.png);
+	max-width: 100%;
+	display: block;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+footer ul{
+	margin-top: -50px;
+	padding-top: 170px;
+	text-align: center;
+	font-family: "微软雅黑";
+    font-size: 20px;
+    color: #d3d3d3;
+}
+
+footer img{
+	margin:0px 19px; 
+
+}
+
+address{
+	font-family: "微软雅黑";
+    font-size: 14px;
+    color: #333333;
+    padding-top: 25px;
+}
+
+address p+p{
+	color: #b2b2b2;
+}
