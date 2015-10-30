@@ -1,0 +1,110 @@
+#wrap{
+	background: rgb(40,40,40);
+	font-family: "微软雅黑";
+	text-align: center;
+}
+
+.clear{
+	clear: both;
+}
+
+header>img{
+	position: absolute;
+	left: 20px;
+    top: 0px;
+    z-index: 2
+}
+
+header img+div{
+	float: right;
+}
+
+header img+div li a{
+	color: #a9a9a9;
+	font: 15px "微软雅黑" serif;
+}
+
+.j{
+	margin: 10px 25px;
+	padding: 15px 0;
+}
+
+.main{
+	background-color: #e5e5e5;
+	color:#6c6c6c;
+}
+
+.banner{
+	margin: 40px 0;
+}
+
+.banner ul li a{
+	color: #6c6c6c;
+	font-size: 16px;
+	padding: 0 42px 8px 15px;
+}
+
+.banner ul li a:hover{
+	color: #000000;
+	text-decoration: none;
+	background: url(../images/news-nav-bj.png) no-repeat;
+	padding: 3px 42px 8px 15px;
+}
+
+.con a{
+	text-align: left;
+	color: #c2c2c2;
+}
+
+.con a h4+p{
+	text-align: right;
+}
+
+.con a h4{
+	color: #000000;
+	font-size: 18px;
+}
+
+.con a:hover{
+	text-decoration: none;
+}
+
+.con ul li {
+    border: 10px solid white;
+    background-color: white;
+    margin: 10px;
+    width: 30%;
+ }
+
+ footer{
+	background: #e5e5e5 url(../images/work-foot-bj.png);
+	max-width: 100%;
+	display: block;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+footer ul{
+	margin-top: -50px;
+	padding-top: 170px;
+	text-align: center;
+	font-family: "微软雅黑";
+    font-size: 20px;
+    color: #d3d3d3;
+}
+
+footer img{
+	margin:0px 19px; 
+
+}
+
+address{
+	font-family: "微软雅黑";
+    font-size: 14px;
+    color: #333333;
+    padding-top: 25px;
+}
+
+address p+p{
+	color: #b2b2b2;
+}
