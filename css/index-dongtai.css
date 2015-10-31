@@ -54,6 +54,9 @@ header img+div li a{
 .con a{
 	text-align: left;
 	color: #c2c2c2;
+	display: block;
+	border: 10px solid white;
+    background-color: white;
 }
 
 .con a h4+p{
@@ -67,14 +70,23 @@ header img+div li a{
 
 .con a:hover{
 	text-decoration: none;
+	color: white;
+	display: block;
+	border: 10px solid rgb(1,182,224);
+    background-color: rgb(1,182,224);
+    transition:all 2s;
+	-moz-transition:all 2s; 
+	-webkit-transition:all 2s; 
+	-o-transition:all 2s; 
 }
 
-.con ul li {
-    border: 10px solid white;
-    background-color: white;
-    margin: 10px;
-    width: 30%;
- }
+.con a:hover h4{
+	color: white;
+	transition:all 1s;
+	-moz-transition:all 1s; 
+	-webkit-transition:all 1s; 
+	-o-transition:all 1s;
+}
 
  footer{
 	background: #e5e5e5 url(../images/work-foot-bj.png);
